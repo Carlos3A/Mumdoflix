@@ -1,0 +1,64 @@
+body {
+    color: white;
+    background: rgb(54, 39, 1);
+    margin: 1px;
+    font-family: "Kanit", sans-serif;
+    margin-bottom: 128px;
+}
+
+header {
+    border-bottom: solid 2px rgb(0, 50, 0);
+    padding: 4px;
+    font-size: 64px;
+    color: rgb(0, 150, 0);
+}
+
+.A {
+    background: rgb(1, 40, 60);   
+    padding-bottom: 8px;
+    padding-top: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto{
+    margin-right: 2%;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 16px;
+}
+
+img {
+    height: 128px;
+    margin: 4%;
+}
+
+.video {
+    display: flex;
+    overflow-x: auto;
+    gap: 8px;
+}
+
+.B {
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-top: 64px;
+}
+
+.video img {
+    opacity: 0.4;
+}
+
+.video img:hover {
+    opacity: 1;
+    border: 2px black;
+}
+
+.B h2 {
+    color: gold;
+}
